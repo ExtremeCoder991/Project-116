@@ -1,0 +1,52 @@
+.btn-success {
+    background-color: black;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #39ff14;
+    box-shadow: 4px 4px 4px #0000ff;
+}
+
+#contra1 {
+    background-color: black;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #39ff14;
+    box-shadow: 4px 4px 4px #0000ff;
+}
+
+#contra2 {
+    width: 500px;
+    background-color: black;
+    height: 4px;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #0000ff;
+}
+
+body {
+    color: white;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+canvas {
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    border-color: white;
+    border-style: groove;
+    border-width: 5px;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px orange;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px #B026FF;
+    }
+}
